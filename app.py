@@ -64,7 +64,7 @@ if st.session_state.pdf_text:
             with st.spinner("Thinking..."):
                 try:
                     response = client.chat.completions.create(
-                        model="model="llama-3.1-8b-instant",",
+                        model="llama-3.1-8b-instant",
                         messages=[
                             {
                                 "role": "system",
